@@ -1,0 +1,9 @@
+data/liver_raw/
+data/processed/
+checkpoints/
+*.pth
+*.npy
+*.nii.gz
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

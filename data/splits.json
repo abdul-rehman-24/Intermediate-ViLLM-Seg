@@ -1,0 +1,84 @@
+{
+  "spleen": {
+    "train": [
+      "spleen_20",
+      "spleen_27",
+      "spleen_56",
+      "spleen_28",
+      "spleen_60",
+      "spleen_6",
+      "spleen_10",
+      "spleen_46",
+      "spleen_17",
+      "spleen_22",
+      "spleen_12",
+      "spleen_52",
+      "spleen_33",
+      "spleen_13",
+      "spleen_53",
+      "spleen_62",
+      "spleen_14",
+      "spleen_61",
+      "spleen_40",
+      "spleen_59",
+      "spleen_21",
+      "spleen_38",
+      "spleen_3",
+      "spleen_32",
+      "spleen_19",
+      "spleen_26",
+      "spleen_47",
+      "spleen_63"
+    ],
+    "val": [
+      "spleen_29",
+      "spleen_16",
+      "spleen_8",
+      "spleen_45",
+      "spleen_44",
+      "spleen_31"
+    ],
+    "test": [
+      "spleen_24",
+      "spleen_18",
+      "spleen_41",
+      "spleen_49",
+      "spleen_9",
+      "spleen_2",
+      "spleen_25"
+    ]
+  },
+  "liver": {
+    "train": [
+      "liver_118",
+      "liver_102",
+      "liver_10",
+      "liver_109",
+      "liver_111",
+      "liver_100",
+      "liver_101",
+      "liver_116",
+      "liver_113",
+      "liver_117",
+      "liver_114",
+      "liver_12",
+      "liver_104",
+      "liver_107",
+      "liver_110",
+      "liver_115",
+      "liver_103"
+    ],
+    "val": [
+      "liver_0",
+      "liver_108",
+      "liver_119",
+      "liver_11"
+    ],
+    "test": [
+      "liver_112",
+      "liver_106",
+      "liver_105",
+      "liver_1"
+    ]
+  }
+}
