@@ -22,5 +22,5 @@
 3. V3's per-organ negative rate + template-combination negatives rebalanced this: spleen recovered to ~0.78-0.86 across three repeated runs, liver stayed strong (~0.92-0.94), suppression reached 94-100%.
 4. Confirmed across three independent training runs: the model reliably suppresses non-medical text and mostly suppresses unseen-organ names, but **consistently fails to suppress "pancreas"** — likely because PubMedBERT's embedding for "pancreas" sits close to trained abdominal-organ embeddings (spleen/liver), a limitation of relying on a frozen general-domain-adjacent encoder rather than explicit multi-class training.
 
-## Recommendation for Future Work
+## Recommendation for Future work
 Add kidney and pancreas as explicit trained classes (not just negatives) to give the model real discriminative boundaries, rather than relying on the frozen text encoder's semantic separation alone.
