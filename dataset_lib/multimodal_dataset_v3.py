@@ -9,6 +9,8 @@ PROMPT_TEMPLATES = {
                "locate the spleen region", "highlight the spleen", "where is the spleen"],
     "liver":  ["segment the liver", "find the liver", "identify the liver",
                "locate the liver region", "highlight the liver", "where is the liver"],
+    "kidney": ["segment the kidney", "find the kidney", "identify the kidney",
+               "locate the kidney region", "highlight the kidney", "where is the kidney"],
 }
 UNRELATED_WORDS = ["ali", "table", "weather", "hello world", "random text",
                     "banana", "compute the average", "describe the weather today"]
