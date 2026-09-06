@@ -2,7 +2,7 @@
 *(developed under the working name "Intermediate ViLLM-Seg"; renamed for clarity and independence from related research proposals)*
 
 Language-conditioned medical image segmentation: CT image + text prompt → prompt-specific organ mask.
-Built as the multi-organ, multimodal successor to Simple ViLLM-Seg (spleen-only U-Net baseline).
+Built as the multi-organ, multimodal successor to an earlier spleen-only U-Net baseline project.
 
 ## Architecture
 CT Image → U-Net Encoder → Bottleneck Features
